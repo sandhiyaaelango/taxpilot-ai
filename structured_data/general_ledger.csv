@@ -1,0 +1,7 @@
+entry_id,transaction_date,invoice_id,account_name,debit_amount,credit_amount,gst_amount,gross_amount,narration,tax_period
+LED-INV001,2026-04-05,INV001,Purchase / Input GST,10000,1800,1800,11800,Purchase invoice SC-101,2026-04
+LED-INV002,2026-04-12,INV002,Purchase / Input GST,5000,900,900,5900,Purchase invoice POM-204,2026-04
+LED-INV003,2026-05-03,INV003,Purchase / Input GST,8000,1440,1440,9440,Purchase invoice MP-330,2026-05
+LED-INV004,2026-05-18,INV004,Purchase / Input GST,12000,2160,2160,14160,Purchase invoice CE-778,2026-05
+LED-INV005,2026-06-02,INV005,Purchase / Input GST,6000,1080,1080,7080,Purchase invoice SC-155,2026-06
+LED-INV006,2026-06-14,INV006,Purchase / Input GST,4000,720,720,4720,Purchase invoice POM-255,2026-06

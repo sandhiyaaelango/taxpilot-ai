@@ -1,0 +1,3 @@
+notice_id,gstin,taxpayer_name,notice_type,tax_period,response_deadline,mismatch_amount,status,notice_summary
+NTC-2026-001,34ABCDE1234F1Z5,ABC Traders (Synthetic Demo Client),DRC-01C,2026-05,2026-07-25,1440,OPEN,ITC claimed in GSTR-3B exceeds ITC available in GSTR-2B in the illustrative period.
+NTC-2026-002,34ABCDE1234F1Z5,ABC Traders (Synthetic Demo Client),INTERNAL_TEST,2026-04,2026-07-30,0,TEST_ONLY,No mismatch; included as a control case.

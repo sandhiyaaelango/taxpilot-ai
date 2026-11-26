@@ -1,0 +1,6 @@
+evidence_id,investigation_id,source_type,source_record_id,relationship_hint,verification_status,description
+EVD001,NTC-2026-001,GSTR-2B,INV001,SUPPORTS,VERIFIED,Invoice INV001 appears in GSTR-2B for April.
+EVD002,NTC-2026-001,Purchase Register,INV003,NEUTRAL,VERIFIED,Invoice INV003 is recorded in the purchase register.
+EVD003,NTC-2026-001,Supplier Filing Status,INV003,SUPPORTS_HYPOTHESIS,VERIFIED,Supplier SUP003 is marked NOT_FILED for the relevant period in synthetic data.
+EVD004,NTC-2026-001,GSTR-3B,2026-05,CONTRADICTS,VERIFIED,"May GSTR-3B claimed ITC includes an illustrative excess of 1,440."
+EVD005,NTC-2026-001,Supplier Confirmation,INV003,UNKNOWN,MISSING,No supplier confirmation document is provided.

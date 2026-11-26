@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-base: #0F0703;
+    --bg-elevated: #170B05;
+
+    --surface-1: rgba(255, 255, 255, 0.04);
+    --surface-2: rgba(255, 255, 255, 0.07);
+    --surface-3: rgba(255, 255, 255, 0.10);
+
+    --border-subtle: rgba(255, 255, 255, 0.08);
+    --border-strong: rgba(255, 255, 255, 0.16);
+
+    --brand-orange: #FF6803;
+    --brand-amber: #FF8A1F;
+    --accent-mint: #30FFAC;
+    --accent-green: #16F456;
+
+    --text-primary: #FFFFFF;
+    --text-secondary: rgba(255, 255, 255, 0.64);
+    --text-muted: rgba(255, 255, 255, 0.40);
+
+    --danger: #FF5A4F;
+    --warning: #FFB020;
+    --info: #7DB8FF;
+
+    --hero-gradient: linear-gradient(135deg, #FF6803 0%, #B84A00 45%, #3A1A0A 100%);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color-scheme: dark;
+    background-color: var(--bg-base);
+    color: var(--text-primary);
+  }
+
+  body {
+    background-color: var(--bg-base);
+    color: var(--text-primary);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  :focus-visible {
+    outline: 2px solid rgba(255, 104, 3, 0.65);
+    outline-offset: 2px;
+  }
+
+  input,
+  select,
+  textarea {
+    color-scheme: dark;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--bg-base);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 104, 3, 0.45);
+  }
+}
+
+@layer components {
+  /* Fixed ambient orange radial glows behind content */
+  .ambient-glow-canvas {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden;
+  }
+
+  .ambient-glow-top-right {
+    position: absolute;
+    top: -180px;
+    right: -120px;
+    width: 640px;
+    height: 640px;
+    border-radius: 9999px;
+    background: radial-gradient(circle, rgba(255, 104, 3, 0.14) 0%, rgba(255, 104, 3, 0) 70%);
+    filter: blur(100px);
+  }
+
+  .ambient-glow-bottom-left {
+    position: absolute;
+    bottom: -220px;
+    left: -140px;
+    width: 680px;
+    height: 680px;
+    border-radius: 9999px;
+    background: radial-gradient(circle, rgba(255, 104, 3, 0.12) 0%, rgba(255, 104, 3, 0) 70%);
+    filter: blur(110px);
+  }
+
+  .glass-card {
+    background: var(--surface-1);
+    border: 1px solid var(--border-subtle);
+    border-radius: 24px;
+    box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(16px);
+  }
+
+  .hero-card {
+    background: var(--hero-gradient);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 24px;
+    box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.18);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

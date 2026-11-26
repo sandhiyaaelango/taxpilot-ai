@@ -1,0 +1,5 @@
+supplier_id,supplier_name,supplier_gstin,state,filing_status,last_filing_date
+SUP001,Southern Components Pvt Ltd,29AAAAA1111A1Z1,Karnataka,FILED,2026-07-10
+SUP002,Pondy Office Mart,34BBBBB2222B1Z2,Puducherry,FILED,2026-07-09
+SUP003,Metro Packaging,33CCCCC3333C1Z3,Tamil Nadu,NOT_FILED,
+SUP004,Coastal Electronics,27DDDDD4444D1Z4,Maharashtra,FILED,2026-07-11

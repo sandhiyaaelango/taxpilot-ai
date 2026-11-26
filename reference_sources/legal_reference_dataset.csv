@@ -1,0 +1,8 @@
+reference_name,publisher,relevant_content,url,notes
+GSTR-2B FAQ,GSTN,"GSTR-2B contents, use, download availability",https://tutorial.gst.gov.in/userguide/returns/FAQ_gstr2b.htm,Official operational guidance
+DRC-01C User Manual,GSTN,ITC mismatch intimation and Part B response workflow,https://tutorial.gst.gov.in/downloads/news/return_compliance_itc_mismatch_intimation_in_form_gst_drc_01c.pdf,Official user manual PDF
+GSTR-2B Matching Tool Manual,GSTN,Download JSON from GST portal and matching workflow,https://tutorial.gst.gov.in/downloads/matchingtool.pdf,Official tool manual PDF
+GSTR-3B User Manual,GSTN,GSTR-3B summary and ITC return workflow,https://tutorial.gst.gov.in/userguide/returns/Create_and_Submit_GSTR3B.htm,Official operational guidance
+DRC-01C Form Reference,GST Council,Illustrative official DRC-01C form text in council document,https://gstcouncil.gov.in/node/4704,Official council document
+GST Collection Dataset,data.gov.in,State/UT-wise aggregate GST collections 2020-21 to 2024-25,https://www.data.gov.in/resource/stateut-wise-details-gross-goods-and-service-tax-gst-collection-2020-21-2024-25,Public aggregate dataset; not invoice-level data
+GST Statistics Notice,PIB,Government says aggregate GST statistics are published on GST portal,https://www.pib.gov.in/PressReleasePage.aspx?PRID=2040108&lang=2&reg=48,Public statistics context
